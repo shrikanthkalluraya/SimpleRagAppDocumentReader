@@ -15,3 +15,19 @@ LangGraph: Orchestrates the workflow with clear states (retrieve → generate) a
 LangChain: Handles all the heavy lifting - document loading, text splitting, embeddings, vector stores, and LLM interactions
 LangSmith: Automatically traces every step, giving you insights into performance, costs, and errors
 The project is simple enough to understand quickly but comprehensive enough to showcase real RAG capabilities. You can start with basic text files and gradually add more complex documents to see how the system performs.
+
+
+## Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone git@github.com:shrikanthkalluraya/SimpleRagAppDocumentReader.git
+   cd SimpleRagAppDocumentReader
+   ```
+
+2. **Install Python dependencies**
+
+```bash
+pip install -r requirements.txt
+```
