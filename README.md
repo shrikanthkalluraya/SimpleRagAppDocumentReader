@@ -1,5 +1,7 @@
 Simple Document Q&A RAG App
-Project Overview: Build a RAG system that can answer questions about uploaded documents using LangChain, LangGraph for workflow orchestration, and LangSmith for monitoring.Simple RAG App with LangChain EcosystemDocument # Simple RAG App with LangChain Ecosystem
+Project Overview: Build a RAG system that can answer questions about uploaded documents using LangChain, LangGraph for workflow orchestration, and LangSmith for monitoring.Simple RAG App with LangChain EcosystemDocument 
+
+# Simple RAG App with LangChain Ecosystem
 
 ## Project Overview
 Build a document Q&A system that demonstrates RAG, LangGraph, LangChain, and LangSmith integration.
