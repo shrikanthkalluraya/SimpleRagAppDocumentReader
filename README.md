@@ -28,6 +28,6 @@ The project is simple enough to understand quickly but comprehensive enough to s
 
 2. **Install Python dependencies**
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
