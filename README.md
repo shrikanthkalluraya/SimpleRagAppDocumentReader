@@ -51,18 +51,18 @@ The project is simple enough to understand quickly but comprehensive enough to s
    You ask a question
 
 4. **Key Learning Points**
-5. 
+   
    ***RAG Concepts Demonstrated:***
 
-      Document Loading: PDF/text file processing
+      ****Document Loading****: PDF/text file processing
    
-      Text Chunking: Breaking documents into manageable pieces
+      ****Text Chunking****: Breaking documents into manageable pieces
    
-      Embeddings: Converting text to vectors
+      ****Embeddings****: Converting text to vectors
    
-      Vector Search: Finding relevant document chunks
+      ****Vector Search****: Finding relevant document chunks
    
-      Context Injection: Adding retrieved context to prompts
+      ****Context Injection****: Adding retrieved context to prompts
    
    ***LangGraph Features:***
    
