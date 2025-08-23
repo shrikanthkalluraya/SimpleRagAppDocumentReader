@@ -3,3 +3,7 @@ langchain
 openai
 chromadb
 pypdf2
+langchain-community
+sentence-transformers
+chromadb
+langchain-huggingface
