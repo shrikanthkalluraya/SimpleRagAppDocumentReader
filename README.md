@@ -54,7 +54,7 @@ The project is simple enough to understand quickly but comprehensive enough to s
    
    ***RAG Concepts Demonstrated:***
 
-      ****Document Loading****: PDF/text file processing
+      &emsp;****Document Loading****: PDF/text file processing
    
       ****Text Chunking****: Breaking documents into manageable pieces
    
@@ -62,7 +62,7 @@ The project is simple enough to understand quickly but comprehensive enough to s
    
       ****Vector Search****: Finding relevant document chunks
    
-      ****Context Injection****: Adding retrieved context to prompts
+      ****Context Injection****: Adding retrieved context to prompts&emsp;
    
    ***LangGraph Features:***
    
