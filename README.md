@@ -44,8 +44,39 @@ The project is simple enough to understand quickly but comprehensive enough to s
    CHROMA stores the vectors
        ↓
    You ask a question
-       ↓
-   Chroma finds similar vectors
-       ↓
-   Robot uses found pieces to answer
+
+4. **RAG Concepts Demonstrated**
+   RAG Concepts Demonstrated:
+
+   ***Document Loading: PDF/text file processing***
+   Text Chunking: Breaking documents into manageable pieces
+   Embeddings: Converting text to vectors
+   Vector Search: Finding relevant document chunks
+   Context Injection: Adding retrieved context to prompts
+   
+   ***LangGraph Features:***
+   
+   State Management: Tracking workflow state
+   Node Definition: Individual processing steps
+   Edge Configuration: Workflow transitions
+   Workflow Orchestration: Managing the complete pipeline
+   
+   ***LangChain Integration:***
+   
+   Document Loaders: File processing utilities
+   Text Splitters: Chunking strategies
+   Vector Stores: ChromaDB integration
+   Retrievers: Search functionality
+   Prompt Templates: Structured prompts
+   
+   ***LangSmith Monitoring:***
+   
+   Automatic Tracing: Every LLM call traced
+   Performance Metrics: Response times, token usage
+   Error Tracking: Failed operations
+   Workflow Visualization: Step-by-step execution
+          ↓
+      Chroma finds similar vectors
+          ↓
+      Robot uses found pieces to answer
 
