@@ -52,49 +52,49 @@ The project is simple enough to understand quickly but comprehensive enough to s
 
 4. **Key Learning Points**
    
-   ***RAG Concepts Demonstrated:***
+   &emsp;***RAG Concepts Demonstrated:***
 
-      &emsp;****Document Loading****: PDF/text file processing
+      &emsp;&emsp;****Document Loading****: PDF/text file processing
    
-      &emsp;****Text Chunking****: Breaking documents into manageable pieces
+      &emsp;&emsp;****Text Chunking****: Breaking documents into manageable pieces
    
-      &emsp;****Embeddings****: Converting text to vectors
+      &emsp;&emsp;****Embeddings****: Converting text to vectors
    
-      &emsp;****Vector Search****: Finding relevant document chunks
+      &emsp;&emsp;****Vector Search****: Finding relevant document chunks
    
-      &emsp;****Context Injection****: Adding retrieved context to prompts&emsp;
+      &emsp;&emsp;****Context Injection****: Adding retrieved context to prompts&emsp;
    
-   ***LangGraph Features:***
+   &emsp;***LangGraph Features:***
    
-      ****State Management:**** Tracking workflow state
+      &emsp;&emsp;****State Management:**** Tracking workflow state
    
-      ****Node Definition:**** Individual processing steps
+      &emsp;&emsp;****Node Definition:**** Individual processing steps
    
-      ****Edge Configuration:**** Workflow transitions
+      &emsp;&emsp;****Edge Configuration:**** Workflow transitions
    
-      ****Workflow Orchestration:**** Managing the complete pipeline
+      &emsp;&emsp;****Workflow Orchestration:**** Managing the complete pipeline
    
-   ***LangChain Integration:***
+   &emsp;***LangChain Integration:***
    
-      ****Document Loaders:**** File processing utilities
+      &emsp;&emsp;****Document Loaders:**** File processing utilities
       
-      ****Text Splitters:**** Chunking strategies
+      &emsp;&emsp;****Text Splitters:**** Chunking strategies
       
-      ****Vector Stores:**** ChromaDB integration
+      &emsp;&emsp;****Vector Stores:**** ChromaDB integration
       
-      ****Retrievers:**** Search functionality
+      &emsp;&emsp;****Retrievers:**** Search functionality
       
-      ****Prompt Templates:**** Structured prompts
+      &emsp;&emsp;****Prompt Templates:**** Structured prompts
    
-   ***LangSmith Monitoring:***
+   &emsp;***LangSmith Monitoring:***
    
-      ****Automatic Tracing:**** Every LLM call traced
+      &emsp;&emsp;****Automatic Tracing:**** Every LLM call traced
       
-      ****Performance Metrics:**** Response times, token usage
+      &emsp;&emsp;****Performance Metrics:**** Response times, token usage
    
-     **** Error Tracking:**** Failed operations
+     &emsp;&emsp;**** Error Tracking:**** Failed operations
    
-      ****Workflow Visualization:**** Step-by-step execution
+      &emsp;&emsp;****Workflow Visualization:**** Step-by-step execution
              ↓
          Chroma finds similar vectors
              ↓
