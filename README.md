@@ -10,10 +10,15 @@ Build a document Q&A system that demonstrates RAG, LangGraph, LangChain, and Lan
 - Upload and process PDF/text documents
 - Vector-based document retrieval
 This project gives you a complete RAG application that demonstrates all the key components:
+
 RAG Concepts: Document chunking, vector embeddings, similarity search, and context-aware generation
+
 LangGraph: Orchestrates the workflow with clear states (retrieve → generate) and shows how to build complex AI workflows
+
 LangChain: Handles all the heavy lifting - document loading, text splitting, embeddings, vector stores, and LLM interactions
+
 LangSmith: Automatically traces every step, giving you insights into performance, costs, and errors
+
 The project is simple enough to understand quickly but comprehensive enough to showcase real RAG capabilities. You can start with basic text files and gradually add more complex documents to see how the system performs.
 
 
@@ -46,37 +51,52 @@ The project is simple enough to understand quickly but comprehensive enough to s
    You ask a question
 
 4. **Key Learning Points**
+5. 
    ***RAG Concepts Demonstrated:***
 
-   Document Loading: PDF/text file processing
-   Text Chunking: Breaking documents into manageable pieces
-   Embeddings: Converting text to vectors
-   Vector Search: Finding relevant document chunks
-   Context Injection: Adding retrieved context to prompts
+      Document Loading: PDF/text file processing
+   
+      Text Chunking: Breaking documents into manageable pieces
+   
+      Embeddings: Converting text to vectors
+   
+      Vector Search: Finding relevant document chunks
+   
+      Context Injection: Adding retrieved context to prompts
    
    ***LangGraph Features:***
    
-   State Management: Tracking workflow state
-   Node Definition: Individual processing steps
-   Edge Configuration: Workflow transitions
-   Workflow Orchestration: Managing the complete pipeline
+      State Management: Tracking workflow state
+   
+      Node Definition: Individual processing steps
+   
+      Edge Configuration: Workflow transitions
+   
+      Workflow Orchestration: Managing the complete pipeline
    
    ***LangChain Integration:***
    
-   Document Loaders: File processing utilities
-   Text Splitters: Chunking strategies
-   Vector Stores: ChromaDB integration
-   Retrievers: Search functionality
-   Prompt Templates: Structured prompts
+      Document Loaders: File processing utilities
+      
+      Text Splitters: Chunking strategies
+      
+      Vector Stores: ChromaDB integration
+      
+      Retrievers: Search functionality
+      
+      Prompt Templates: Structured prompts
    
    ***LangSmith Monitoring:***
    
-   Automatic Tracing: Every LLM call traced
-   Performance Metrics: Response times, token usage
-   Error Tracking: Failed operations
-   Workflow Visualization: Step-by-step execution
-          ↓
-      Chroma finds similar vectors
-          ↓
-      Robot uses found pieces to answer
-
+      Automatic Tracing: Every LLM call traced
+      
+      Performance Metrics: Response times, token usage
+   
+      Error Tracking: Failed operations
+   
+      Workflow Visualization: Step-by-step execution
+             ↓
+         Chroma finds similar vectors
+             ↓
+         Robot uses found pieces to answer
+   
