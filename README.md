@@ -66,35 +66,35 @@ The project is simple enough to understand quickly but comprehensive enough to s
    
    ***LangGraph Features:***
    
-      State Management: Tracking workflow state
+      ****State Management:**** Tracking workflow state
    
-      Node Definition: Individual processing steps
+      ****Node Definition:**** Individual processing steps
    
-      Edge Configuration: Workflow transitions
+      ****Edge Configuration:**** Workflow transitions
    
-      Workflow Orchestration: Managing the complete pipeline
+      ****Workflow Orchestration:**** Managing the complete pipeline
    
    ***LangChain Integration:***
    
-      Document Loaders: File processing utilities
+      ****Document Loaders:**** File processing utilities
       
-      Text Splitters: Chunking strategies
+      ****Text Splitters:**** Chunking strategies
       
-      Vector Stores: ChromaDB integration
+      ****Vector Stores:**** ChromaDB integration
       
-      Retrievers: Search functionality
+      ****Retrievers:**** Search functionality
       
-      Prompt Templates: Structured prompts
+      ****Prompt Templates:**** Structured prompts
    
    ***LangSmith Monitoring:***
    
-      Automatic Tracing: Every LLM call traced
+      ****Automatic Tracing:**** Every LLM call traced
       
-      Performance Metrics: Response times, token usage
+      ****Performance Metrics:**** Response times, token usage
    
-      Error Tracking: Failed operations
+     **** Error Tracking:**** Failed operations
    
-      Workflow Visualization: Step-by-step execution
+      ****Workflow Visualization:**** Step-by-step execution
              ↓
          Chroma finds similar vectors
              ↓
