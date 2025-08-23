@@ -45,10 +45,10 @@ The project is simple enough to understand quickly but comprehensive enough to s
        ↓
    You ask a question
 
-4. **RAG Concepts Demonstrated**
-   RAG Concepts Demonstrated:
+4. **Key Learning Points**
+   ***RAG Concepts Demonstrated:***
 
-   ***Document Loading: PDF/text file processing***
+   Document Loading: PDF/text file processing
    Text Chunking: Breaking documents into manageable pieces
    Embeddings: Converting text to vectors
    Vector Search: Finding relevant document chunks
