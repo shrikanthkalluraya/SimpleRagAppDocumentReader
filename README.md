@@ -10,10 +10,15 @@ Build a document Q&A system that demonstrates RAG, LangGraph, LangChain, and Lan
 - Upload and process PDF/text documents
 - Vector-based document retrieval
 This project gives you a complete RAG application that demonstrates all the key components:
+
 RAG Concepts: Document chunking, vector embeddings, similarity search, and context-aware generation
+
 LangGraph: Orchestrates the workflow with clear states (retrieve → generate) and shows how to build complex AI workflows
+
 LangChain: Handles all the heavy lifting - document loading, text splitting, embeddings, vector stores, and LLM interactions
+
 LangSmith: Automatically traces every step, giving you insights into performance, costs, and errors
+
 The project is simple enough to understand quickly but comprehensive enough to showcase real RAG capabilities. You can start with basic text files and gradually add more complex documents to see how the system performs.
 
 
@@ -46,37 +51,52 @@ The project is simple enough to understand quickly but comprehensive enough to s
    You ask a question
 
 4. **Key Learning Points**
-   ***RAG Concepts Demonstrated:***
+   
+   &emsp;***RAG Concepts Demonstrated:***
 
-   Document Loading: PDF/text file processing
-   Text Chunking: Breaking documents into manageable pieces
-   Embeddings: Converting text to vectors
-   Vector Search: Finding relevant document chunks
-   Context Injection: Adding retrieved context to prompts
+      &emsp;&emsp;****Document Loading****: PDF/text file processing
    
-   ***LangGraph Features:***
+      &emsp;&emsp;****Text Chunking****: Breaking documents into manageable pieces
    
-   State Management: Tracking workflow state
-   Node Definition: Individual processing steps
-   Edge Configuration: Workflow transitions
-   Workflow Orchestration: Managing the complete pipeline
+      &emsp;&emsp;****Embeddings****: Converting text to vectors
    
-   ***LangChain Integration:***
+      &emsp;&emsp;****Vector Search****: Finding relevant document chunks
    
-   Document Loaders: File processing utilities
-   Text Splitters: Chunking strategies
-   Vector Stores: ChromaDB integration
-   Retrievers: Search functionality
-   Prompt Templates: Structured prompts
+      &emsp;&emsp;****Context Injection****: Adding retrieved context to prompts&emsp;
    
-   ***LangSmith Monitoring:***
+   &emsp;***LangGraph Features:***
    
-   Automatic Tracing: Every LLM call traced
-   Performance Metrics: Response times, token usage
-   Error Tracking: Failed operations
-   Workflow Visualization: Step-by-step execution
-          ↓
-      Chroma finds similar vectors
-          ↓
-      Robot uses found pieces to answer
-
+      &emsp;&emsp;****State Management:**** Tracking workflow state
+   
+      &emsp;&emsp;****Node Definition:**** Individual processing steps
+   
+      &emsp;&emsp;****Edge Configuration:**** Workflow transitions
+   
+      &emsp;&emsp;****Workflow Orchestration:**** Managing the complete pipeline
+   
+   &emsp;***LangChain Integration:***
+   
+      &emsp;&emsp;****Document Loaders:**** File processing utilities
+      
+      &emsp;&emsp;****Text Splitters:**** Chunking strategies
+      
+      &emsp;&emsp;****Vector Stores:**** ChromaDB integration
+      
+      &emsp;&emsp;****Retrievers:**** Search functionality
+      
+      &emsp;&emsp;****Prompt Templates:**** Structured prompts
+   
+   &emsp;***LangSmith Monitoring:***
+   
+      &emsp;&emsp;****Automatic Tracing:**** Every LLM call traced
+      
+      &emsp;&emsp;****Performance Metrics:**** Response times, token usage
+   
+      &emsp;&emsp;****Error Tracking:**** Failed operations
+   
+      &emsp;&emsp;****Workflow Visualization:**** Step-by-step execution
+             ↓
+         Chroma finds similar vectors
+             ↓
+         Robot uses found pieces to answer
+   
