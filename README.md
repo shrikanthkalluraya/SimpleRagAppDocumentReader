@@ -54,15 +54,15 @@ The project is simple enough to understand quickly but comprehensive enough to s
    
    ***RAG Concepts Demonstrated:***
 
-      &emsp;****Document Loading****: PDF/text file processing
+      > ****Document Loading****: PDF/text file processing
    
-      ****Text Chunking****: Breaking documents into manageable pieces
+      > ****Text Chunking****: Breaking documents into manageable pieces
    
-      ****Embeddings****: Converting text to vectors
+      > ****Embeddings****: Converting text to vectors
    
-      ****Vector Search****: Finding relevant document chunks
+      > ****Vector Search****: Finding relevant document chunks
    
-      ****Context Injection****: Adding retrieved context to prompts&emsp;
+      > ****Context Injection****: Adding retrieved context to prompts&emsp;
    
    ***LangGraph Features:***
    
