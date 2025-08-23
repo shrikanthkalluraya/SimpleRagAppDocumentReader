@@ -92,7 +92,7 @@ The project is simple enough to understand quickly but comprehensive enough to s
       
       &emsp;&emsp;****Performance Metrics:**** Response times, token usage
    
-     &emsp;&emsp;**** Error Tracking:**** Failed operations
+      &emsp;&emsp;****Error Tracking:**** Failed operations
    
       &emsp;&emsp;****Workflow Visualization:**** Step-by-step execution
              ↓
