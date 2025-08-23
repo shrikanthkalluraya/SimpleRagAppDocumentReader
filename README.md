@@ -31,3 +31,21 @@ The project is simple enough to understand quickly but comprehensive enough to s
    ```bash
    pip install -r requirements.txt
    ```
+
+3. **Flow Chart for the applications**
+
+   ```bash
+   You give text to robot
+       ↓
+   Robot breaks it into pieces  
+       ↓
+   Embeddings turn pieces into vectors
+       ↓  
+   CHROMA stores the vectors
+       ↓
+   You ask a question
+       ↓
+   Chroma finds similar vectors
+       ↓
+   Robot uses found pieces to answer
+
