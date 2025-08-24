@@ -7,3 +7,6 @@ langchain-community
 sentence-transformers
 chromadb
 langchain-huggingface
+requests
+transformers
+torch
